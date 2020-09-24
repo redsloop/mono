@@ -3,8 +3,8 @@ function fish_prompt
     set -l pwd_info (pwd_info "/")
     set -l dir
     set -l base
-    set -l color (set_color white)
-    set -l color2 (set_color normal)
+    set -l color (set_color green)
+    set -l color2 (set_color brgreen)
     set -l color3 (set_color $fish_color_command)
     set -l color_error (set_color $fish_color_error)
     set -l color_normal "$color2"
